@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.2">
+<eagle version="7.6.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -4090,7 +4090,7 @@ type 0309, grid 2.5 mm</description>
 <instance part="LED2" gate="G$1" x="119.38" y="45.72"/>
 <instance part="LED3" gate="G$1" x="134.62" y="45.72"/>
 <instance part="R1" gate="G$1" x="106.68" y="58.42" rot="R270">
-<attribute name="RESISTANCE" x="109.22" y="60.96" size="1.778" layer="96" rot="R270"/>
+<attribute name="RESISTANCE" x="109.22" y="58.42" size="1.778" layer="96" rot="R270"/>
 </instance>
 <instance part="R2" gate="G$1" x="119.38" y="58.42" rot="R270">
 <attribute name="RESISTANCE" x="121.92" y="58.42" size="1.778" layer="96" rot="R270"/>
