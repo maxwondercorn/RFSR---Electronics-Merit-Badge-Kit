@@ -3,7 +3,7 @@ Electronics Merit Badge Kit
 
 ![Electronics MB Kit Assembled](/Images/ElectronicsMBKit_Assembled.jpg?raw=true "Electronics MB Kit Assembled")
 
-Small ATTINY (Arduino IDE Compatible) microcontroller based kit used to teach Electronics Merit Badge at Resica Falls Scout Reservation.  Once assembled and functional, the kit allows selection of various LED display modes (Flickering Candle, Nightlight, Flashlight, Etc.) by rotating the on-board potentiometer.  Kit design is intended to meet all relevant badge requirements and expose scouts to a variety of component types at the lowest cost possible.
+Small ATtiny (Arduino IDE Compatible) microcontroller based kit used to teach Electronics Merit Badge at Resica Falls Scout Reservation.  Once assembled and functional, the kit allows selection of various LED display modes (Flickering Candle, Nightlight, Flashlight, Etc.) by rotating the on-board potentiometer.  Kit design is intended to meet all relevant badge requirements and expose scouts to a variety of component types at the lowest cost possible.
 
 
 Repository Contents
@@ -14,6 +14,20 @@ Repository Contents
     - Bill Of Materials includes vendors / part numbers from the last production run.
 * **/Software** - Demo Arduino sketch for the kit.  Code is intended to be easy to understand for beginners.
 * **/Images** - Images of the kit, both assembled and in parts.
+
+
+Firmware Programming
+-------------------
+
+As of the 2017 summer camp season, kit firmware is programmed using the following tools:
+
+**Hardware**
+An [*Arduino Uno*](https://store.arduino.cc/usa/arduino-uno-rev3) and an ['AVR Programmer Shield'](http://www.electrodragon.com/w/AVR_Programmer_Arduino_Shield) with ZIF socket.
+
+Image of programming rig: ['/Images/ElectronicsMBProgrammingRig.jpg'](https://raw.githubusercontent.com/crossfireprod/RFSR---Electronics-Merit-Badge-Kit/master/Images/ElectronicsMBProgrammingRig.jpg)
+
+** Software **
+The Arduino Uno is used as an in system programmer (ISP) through use of the ['ArduinoISP'](https://github.com/arduino/ArduinoISP) sketch packaged with [*Arduino 1.8.3*](https://www.arduino.cc/en/main/software) to program the ATtiny 45/85 targets.  ATtiny core files available from ['David Mellis' GitHub Repository'](https://github.com/damellis/attiny), using ['full instructions published by high-low tech]'(http://highlowtech.org/?p=1695) allow the ATtiny AVR microcontrollers used in the kits to be programmed directly from the Arduino IDE.
 
 License
 -------------------
