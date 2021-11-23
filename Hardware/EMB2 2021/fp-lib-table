@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name EMB2)(type KiCad)(uri "$(KIPRJMOD)/EMB2.pretty")(options "")(descr ""))
+)
